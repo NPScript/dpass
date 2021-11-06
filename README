@@ -1,24 +1,24 @@
-dmenu - dynamic menu
-====================
-dmenu is an efficient dynamic menu for X.
+dpass - dynamic password prompt
+===============================
+dpass is an efficient dynamic password prompt for X.
 
 
 Requirements
 ------------
-In order to build dmenu you need the Xlib header files.
+In order to build dpass you need the Xlib header files.
 
 
 Installation
 ------------
-Edit config.mk to match your local setup (dmenu is installed into
+Edit config.mk to match your local setup (dpass is installed into
 the /usr/local namespace by default).
 
-Afterwards enter the following command to build and install dmenu
+Afterwards enter the following command to build and install dpass
 (if necessary as root):
 
     make clean install
 
 
-Running dmenu
+Running dpass
 -------------
 See the man page for details.
