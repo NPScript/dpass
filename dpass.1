@@ -1,0 +1,67 @@
+.TH dpass 1 dpass\-VERSION
+.SH NAME
+dpass \- dynamic menu
+.SH SYNOPSIS
+.B dpass
+.RB [ \-bfiv ]
+.RB [ \-m
+.IR monitor ]
+.RB [ \-p
+.IR prompt ]
+.RB [ \-fn
+.IR font ]
+.RB [ \-nb
+.IR color ]
+.RB [ \-nf
+.IR color ]
+.RB [ \-sb
+.IR color ]
+.RB [ \-sf
+.IR color ]
+.RB [ \-w
+.IR windowid ]
+.P
+.SH DESCRIPTION
+.B dpass
+is a dynamic passask programm for X.
+.P
+.SH OPTIONS
+.TP
+.B \-b
+dpass appears at the bottom of the screen.
+.TP
+.BI \-m " monitor"
+dpass is displayed on the monitor number supplied. Monitor numbers are starting
+from 0.
+.TP
+.BI \-p " prompt"
+defines the prompt to be displayed to the left of the input field.
+.TP
+.BI \-fn " font"
+defines the font or font set used.
+.TP
+.BI \-nb " color"
+defines the normal background color.
+.IR #RGB ,
+.IR #RRGGBB ,
+and X color names are supported.
+.TP
+.BI \-nf " color"
+defines the normal foreground color.
+.TP
+.BI \-sb " color"
+defines the selected background color.
+.TP
+.BI \-sf " color"
+defines the selected foreground color.
+.TP
+.B \-v
+prints version information to stdout, then exits.
+.TP
+.BI \-w " windowid"
+embed into windowid.
+.SH USAGE
+Just enter your password
+.SH SEE ALSO
+.IR dwm (1),
+.IR stest (1)
